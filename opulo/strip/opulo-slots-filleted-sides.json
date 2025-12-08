@@ -1,0 +1,50 @@
+{
+    "parameterSets": {
+        "4x 8w 140l 27h": {
+            "additionalWidth": "4",
+            "bankID": "1",
+            "bodyHeight": "6",
+            "feederLength": "140",
+            "magnetDiameter": "6",
+            "magnetHeight": "3",
+            "numberOfFeeders": "4",
+            "springClearance": "0.4",
+            "springSkew": "1.2",
+            "springWidth": "1.3",
+            "tapeClearance": "-0.3",
+            "tapeGuideUpperOverhang": "0.4",
+            "tapeHeight": "0.9",
+            "tapeLayerHeight": "27",
+            "tapeSupportHoleSide": "2.8",
+            "tapeSupportNonHoleSide": "0.9",
+            "tapeWidth": "8",
+            "topFinishingLayer": "0.3"
+        },
+        "design default values": {
+            "bankID": "1",
+            "bodyHeight": "2.5",
+            "feederLength": "120",
+            "filletRadius": "1.2",
+            "idSize": "1.7",
+            "magnetDiameter": "6",
+            "magnetHeight": "0",
+            "numberOfFeeders": "6",
+            "padLength": "50",
+            "padThickness": "0",
+            "slotWallThickness": "0.725",
+            "spacer": "0.5",
+            "springClearance": "0.4",
+            "springWidth": "1",
+            "tapeClearance": "0.05",
+            "tapeGuideUpperOverhang": "0.4",
+            "tapeHeight": "0.9",
+            "tapeLayerHeight": "9.3",
+            "tapeSupportHoleWidth": "2",
+            "tapeSupportNonHoleWidth": "0.9",
+            "tapeWidthNom": "8",
+            "tapeXOffset": "-0.05",
+            "topFinishingLayer": "0.3"
+        }
+    },
+    "fileFormatVersion": "1"
+}
