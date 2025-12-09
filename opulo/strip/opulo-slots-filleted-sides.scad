@@ -12,7 +12,7 @@ tapeWidthNom=8; // [8, 12, 16, 24, 36, 48, 72]
 //Optimize for Plastic or Paper tape? Plastic tapes fit in Paper, but not reverse. Plastic tapes may be too loose in paper feeder.
 tapeHeight=0.9; // [0.9:paper,0.3:plastic]
 //How many feeder to print ganged
-numberOfFeeders=2; // [1:1:20]
+numberOfFeeders=6; // [1:1:20]
 //Overall length of feeder?
 feederLength=120;
 //Height of tape's bottom side above bed
@@ -20,7 +20,7 @@ tapeLayerHeight=9.5;
 
 bodyHeight=2.5;
 
-spacer = 0; // [0:0.5:10]
+spacer = 0.5; // [0:0.5:10]
 spacerHeight = bodyHeight*0.8; // [0:8]
 
 //Bank ID: To identify the feeder in OpenPnP unique IDs for each bank are built and embossed into the ganged feeder. -1: no identifier.
@@ -49,8 +49,8 @@ tapeGuideUpperOverhang=0.4;
 springWidth=1.0;
 
 //if two tapeloaded lanes touch each other raise this value a little
-springClearance=0.4;
-tapeXOffset=-0.05;
+springClearance=0.3;
+tapeXOffset=-0.10;
 
 slotWidth=tapeWidthNom+tapeClearance;
 
@@ -64,7 +64,7 @@ idHeight=bodyHeight-idSize*0.2;
 filletRadius=1.2;
     
 padLength = 50;
-padThickness=1.5;
+padThickness=0;
 
 pitch = overallWidth+spacer;
 echo("Pitch: ", pitch);
@@ -137,7 +137,7 @@ module extrusion() {
             [overallWidth, spacerHeight],
         
             //right arm way up ("spring", outer part)
-,
+
             [overallWidth,tapeLayerHeight, filletRadius],
         
             //right arm tape guide

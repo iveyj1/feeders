@@ -1,26 +1,31 @@
 {
+    "fileFormatVersion": "1",
     "parameterSets": {
-        "4x 8w 140l 27h": {
-            "additionalWidth": "4",
+        "New set 1": {
             "bankID": "1",
-            "bodyHeight": "6",
-            "feederLength": "140",
+            "bodyHeight": "2.5",
+            "feederLength": "120",
+            "filletRadius": "1.2",
+            "idSize": "1.7",
             "magnetDiameter": "6",
-            "magnetHeight": "3",
-            "numberOfFeeders": "4",
-            "springClearance": "0.4",
-            "springSkew": "1.2",
-            "springWidth": "1.3",
-            "tapeClearance": "-0.3",
-            "tapeGuideUpperOverhang": "0.4",
-            "tapeHeight": "0.9",
-            "tapeLayerHeight": "27",
-            "tapeSupportHoleSide": "2.8",
-            "tapeSupportNonHoleSide": "0.9",
-            "tapeWidth": "8",
-            "topFinishingLayer": "0.3"
+            "magnetHeight": "0",
+            "numberOfFeeders": "5",
+            "padLength": "50",
+            "padThickness": "0",
+            "slotWallThickness": "0.72499999999999998",
+            "spacer": "0.5",
+            "springClearance": "0.40000000000000002",
+            "springWidth": "1",
+            "tapeClearance": "0.050000000000000003",
+            "tapeGuideUpperOverhang": "0.40000000000000002",
+            "tapeHeight": "0.90000000000000002",
+            "tapeLayerHeight": "9.5",
+            "tapeSupportHoleWidth": "2",
+            "tapeSupportNonHoleWidth": "0.90000000000000002",
+            "tapeWidthNom": "8",
+            "topFinishingLayer": "0.29999999999999999"
         },
-        "design default values": {
+        "New set 2": {
             "bankID": "1",
             "bodyHeight": "2.5",
             "feederLength": "120",
@@ -31,20 +36,18 @@
             "numberOfFeeders": "6",
             "padLength": "50",
             "padThickness": "0",
-            "slotWallThickness": "0.725",
+            "slotWallThickness": "0.72499999999999998",
             "spacer": "0.5",
-            "springClearance": "0.4",
+            "springClearance": "0.40000000000000002",
             "springWidth": "1",
-            "tapeClearance": "0.05",
-            "tapeGuideUpperOverhang": "0.4",
-            "tapeHeight": "0.9",
-            "tapeLayerHeight": "9.3",
+            "tapeClearance": "0.050000000000000003",
+            "tapeGuideUpperOverhang": "0.40000000000000002",
+            "tapeHeight": "0.90000000000000002",
+            "tapeLayerHeight": "9.5",
             "tapeSupportHoleWidth": "2",
-            "tapeSupportNonHoleWidth": "0.9",
+            "tapeSupportNonHoleWidth": "0.90000000000000002",
             "tapeWidthNom": "8",
-            "tapeXOffset": "-0.05",
-            "topFinishingLayer": "0.3"
+            "topFinishingLayer": "0.29999999999999999"
         }
-    },
-    "fileFormatVersion": "1"
+    }
 }
