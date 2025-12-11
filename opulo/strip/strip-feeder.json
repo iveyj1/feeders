@@ -1,0 +1,30 @@
+{
+    "parameterSets": {
+        "design default values": {
+            "bankID": "1",
+            "bodyThickness": "2.5",
+            "feederLength": "120",
+            "filletRadius": "1.2",
+            "idSize": "1.7",
+            "magnetDiameter": "6",
+            "magnetHeight": "0",
+            "numberOfFeeders": "6",
+            "padLength": "50",
+            "padThickness": "0",
+            "slotWallThickness": "0.725",
+            "spacer": "0.5",
+            "springClearance": "0.3",
+            "springWidth": "1",
+            "tapeClearance": "0.05",
+            "tapeGuideUpperOverhang": "0.4",
+            "tapeHeight": "0.9",
+            "tapeLayerHeight": "9.5",
+            "tapeSupportWidthNonSprocketSide": "0.9",
+            "tapeSupportWidthSprocketSide": "2",
+            "tapeWidthNom": "8",
+            "tapeXOffset": "-0.1",
+            "topFinishingLayer": "0.3"
+        }
+    },
+    "fileFormatVersion": "1"
+}
